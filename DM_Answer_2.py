@@ -21,9 +21,9 @@ class Sets:
                 if member == element:
                     truth_value += 1
         if len(self.set_b) == truth_value:
-            return '\n  a) The truth value of B ⊆ A is True.\n  Hence, B is a subset of A '
+            return f'\n  a) The truth value of B ⊆ A is {True}.\n  Hence, B is a subset of A '
         else:
-            return '\n  a) The truth value of B ⊆ A is False.\n Hence, B is not a subset of A'
+            return f'\n  a) The truth value of B ⊆ A is {False}.\n Hence, B is not a subset of A'
 
     def set_A_minus_set_B(self):
         set_a_minus_b = set()
